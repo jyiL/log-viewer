@@ -1,14 +1,14 @@
 {
     "name": "jyil/log-viewer",
-    "description": "Description...",
+    "description": "log viewer",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/jyil/log-viewer",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "jyiL",
+            "email": "sal597685816@live.cn"
         }
     ],
     "require": {
