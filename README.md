@@ -1,10 +1,12 @@
 # Dcat Admin Extension
 
 ## 2.0扩展
-日志查看
+错误日志查看
+
+## 安装
 
 ```
-    composer require xxx
+    composer require jyil/log-viewer
 ```
 
 
