@@ -42,7 +42,7 @@ class LogViewer
         'ERROR'     => 'red',
         'WARNING'   => 'orange',
         'NOTICE'    => 'light-blue',
-        'INFO'      => 'aqua',
+        'INFO'      => 'info',
         'DEBUG'     => 'green',
     ];
 
