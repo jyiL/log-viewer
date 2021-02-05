@@ -142,7 +142,7 @@
                     <ul class="nav nav-pills nav-stacked">
                         @foreach($logFiles as $logFile)
                             <li @if($logFile == $fileName)class="active"@endif>
-                                <a href="{{ route('log-viewer-file', ['file' => $logFile]) }}"><i class="fa fa-{{ ($logFile == $fileName) ? 'folder-open' : 'folder' }}"></i>{{ $logFile }}</a>
+                                <a href="{{ admin_route('log-viewer-file', ['file' => $logFile]) }}"><i class="fa fa-{{ ($logFile == $fileName) ? 'folder-open' : 'folder' }}"></i>{{ $logFile }}</a>
                             </li>
                         @endforeach
                     </ul>

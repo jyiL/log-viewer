@@ -135,7 +135,7 @@ class LogViewer
             return false;
         }
 
-        return route('log-viewer-file', [
+        return admin_route('log-viewer-file', [
             'file' => $this->file, 'offset' => $this->pageOffset['end'],
         ]);
     }
@@ -151,7 +151,7 @@ class LogViewer
             return false;
         }
 
-        return route('log-viewer-file', [
+        return admin_route('log-viewer-file', [
             'file' => $this->file, 'offset' => -$this->pageOffset['start'],
         ]);
     }
