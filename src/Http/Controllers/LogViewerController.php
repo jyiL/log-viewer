@@ -43,7 +43,7 @@ class LogViewerController extends Controller
 
         $viewer = new LogViewer($file);
 
-        list($pos, $logs) = $viewer->tail($offset);
+        list($pos, $logs) = $viewer->tail(intval($offset));
 
         return compact('pos', 'logs');
     }
